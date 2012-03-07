@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'objcOpenStruct' target in the 'objcOpenStruct' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
