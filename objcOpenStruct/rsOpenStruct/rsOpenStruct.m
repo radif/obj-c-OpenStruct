@@ -53,4 +53,7 @@ id dictionaryMethodGet(id obj, SEL _cmd){
 	[dictionary release];
 	[super dealloc];
 }
+-(NSString *)description{
+    return [[self dictionary] description];
+}
 @end

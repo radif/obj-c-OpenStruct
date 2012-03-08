@@ -23,13 +23,14 @@ int main(int argc, const char * argv[])
         
         
         
-        
+        NSLog(@"%@",[book description]);
         //you can invent getter methods on the fly....
         NSLog(@"%@",[book title]);
         NSLog(@"%@",[book author]);
         NSLog(@"%@",[book currentYear]);
         //returns nil if the setter wasn't called
         [book release];
+        
         
     }
     return 0;
